@@ -1,13 +1,79 @@
 I want to create a modern, responsive personal website using the following technology stack:
 
-1. Core Technologies:
+# Website Development Project Specification
+
+## 0. Brand Identity
+
+- Company Name: TRUE SPOKE
+- Tagline: Aligning your spokes to the AI revolution
+- Brand Voice: Technical/Analytical with elements of Approachable/Educational
+
+  Primary Characteristics:
+
+  - Data-driven expertise
+  - Clear communication
+  - Problem-solving focus
+
+  Tone Guidelines:
+
+  - Confident but not arrogant
+  - Technical but accessible
+  - Practical and solution-oriented
+
+  Key Messaging Themes:
+
+  - Evidence-based insights
+  - Real-world applications
+  - Continuous innovation
+
+## 1. Visual Identity
+
+### Color Palette
+
+```
+Primary Colors:
+- Primary: 023047
+- Secondary: 219ebc
+- Accent: ffb703
+
+Supporting Colors:
+- Background Light: fb8500
+- Background Dark: 8ecae6
+- Text Primary: 22333b
+- Text Secondary: ffb703
+```
+
+### Logo Assets
+
+```
+Logo Variations:
+- Full Logo Light: public/images/logo/truespoke_logo_light.png
+- Full Logo Dark: public/images/logo/truespoke_logo_dark.png
+- Icon Only Light: public/images/logo/truespoke_logo_light_only.png
+- Icon Only Dark: public/images/logo/truespoke_logo_dark_only.png
+
+Sizes:
+- Large: 240px width
+- Medium: 160px width
+- Small: 80px width
+- Favicon: 32x32px, 16x16px
+
+File Formats:
+- SVG (preferred for web)
+- PNG (with transparency)
+- ICO (favicon)
+```
+
+## 2. Core Technologies:
+
 - React with TypeScript
 - Vite as the build tool
 - Tailwind CSS for styling
 - React Router for navigation
 - Google Analytics 4 for tracking
 
-2. Required Features:
+## 3. Required Features:
+
 - Responsive navigation with mobile menu
 - Hero section for personal introduction
 - About/Bio section
@@ -18,7 +84,8 @@ I want to create a modern, responsive personal website using the following techn
 - SEO optimization
 - Custom favicon
 
-3. Specific Components Needed:
+## 4. Specific Components Needed:
+
 - Navigation bar with:
   - Logo/Name
   - Mobile-responsive menu
@@ -31,7 +98,8 @@ I want to create a modern, responsive personal website using the following techn
 - Contact form or contact information
 - Footer with social media links
 
-4. File Structure:
+## 5. File Structure:
+
 ```
 src/
 ├── components/
@@ -49,7 +117,8 @@ src/
 └── main.tsx
 ```
 
-5. Required Dependencies:
+## 6. Required Dependencies:
+
 ```json
 {
   "dependencies": {
@@ -69,14 +138,16 @@ src/
 }
 ```
 
-6. Configuration Files Needed:
+## 7. Configuration Files Needed:
+
 - tailwind.config.js
 - tsconfig.json
 - vite.config.ts
 - postcss.config.js
 - index.html with proper meta tags and title
 
-7. Design Considerations:
+## 8. Design Considerations:
+
 - Clean, modern aesthetic
 - Mobile-first approach
 - Consistent color scheme
@@ -84,7 +155,8 @@ src/
 - Smooth animations/transitions
 - Accessible design elements
 
-8. Analytics Setup:
+## 9. Analytics Setup:
+
 - Google Analytics 4 initialization
 - Page view tracking
 - Event tracking for:
@@ -93,7 +165,8 @@ src/
   - Download resume (if applicable)
   - Social link clicks
 
-9. Additional Features:
+## 10. Additional Features:
+
 - Dark/light mode toggle
 - Loading states
 - Error boundaries
